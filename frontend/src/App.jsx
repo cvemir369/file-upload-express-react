@@ -9,6 +9,7 @@ function App() {
   const [imageUrl, setImageUrl] = useState("");
 
   const handleFileChange = (e) => {
+    console.log(e.target.files);
     setFile(e.target.files[0]);
   };
 
